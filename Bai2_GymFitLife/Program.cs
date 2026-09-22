@@ -1,0 +1,6 @@
+namespace Bai2_GymFitLife;
+internal static class Program
+{
+    [STAThread]
+    private static void Main() { ApplicationConfiguration.Initialize(); Application.Run(new Form1()); }
+}
